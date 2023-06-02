@@ -3,39 +3,62 @@
 Integrantes:
 
 RM 99389 - Victor Flávio Demarchi Viana
+
 RM 551117 - Lorenzo Gomes Andreata
+
 RM 550695 - Gabriel Ferla
+
 RM 97888 - Vinícius Almeida Bernardino de Souza
+
 RM 98827 - André Coelho Solér
+
 
 Conceito:
 
 Se trata de um dispositivo que serve de extensão para uma IA Generativa especializada em plantas, dessa forma ela pode coletar dados precisos do ambiente e fornecer informações ainda mais precisas para o usuário que desejar utilizar a Inteligência Artificial, e funcionará utilizando 3 sensores (umidade do solo, temperatura e luminosidade) e enviará, através do Arduino, as informações coletadas por estes sensores utilizando de um módulo Wifi serial (em teoria) pelo Wifi da pessoa e, dessa forma, a Inteligência Artificial poderia coletar essas informações de qualquer dispositivo conectado na mesma rede que o Arduino, e também mostrar essas informações num display LCD.
 
+
 Requisitos:
 
 1	Arduino Uno R3
+
 1 cabo USB
+
 2 Protoboards
+
 1	Fotorresistor
+
 1	Sensor de temperatura [TMP36]
+
 1	Sensor de umidade do solo
+
 1	10 kΩ Resistor
+
 1	LCD 16 x 2
+
 1	220 Ω Resistor
+
 1	Diodo
+
 1	Botão (simulando um módulo Wifi serial ESP8266)
+
 1	1 kΩ Resistor
+
 10 jumpers pretos
+
 10 jumpers vermelhos
+
 4 jumpers verdes
+
 1 jumper azul
+
 
 Dependências:
 
 Conexão com um computador com o Arduino IDE instalado (configurações iniciais), Obs. Não é necessária configuração inicial caso seja feita simulação com botão
 Fonte de energia (bateria ou USB)
 Conexão com a internet (se for simulado utilizando o botão, não é necessária conexão com a internet)
+
 
 Instruções:
 
@@ -44,6 +67,7 @@ Após receber o dispositivo na sua casa, ele teria de ser conectado a um computa
 Em seguida, montar o esquema e alimentar o Arduino com alguma fonte de energia de até 9 Volts, em seguida o Arduino irá automaticamente conectar na rede com o nome mencionado com a senha mencionada (ignorar essa parte caso esteja simulando com o botão), mostrando no display LCD na primeira linha os valores dos sensores (umidade em porcentagem ou "%", temperatura em graus celsius ou "C", luminosidade em kilolux ou "klux"), e na segunda linha o status de conexão do arduino e a rede (e caso esteja utilizando o botão, clicar nele irá mudar o estado de conexão entre "Não conectado", "Conectando" e "Conectado").
 
 Dependendo do valor que for registrado pelos sensores, a Inteligência Artificial pode utilizar como base para se tomar medidas em favor do cuidado ideal com as plantas que o usuário possui e, dessa forma, aumentar significantemente as chances de sucesso em cuidar da planta até onde o usuário desejar.
+
 
 Informações relevantes:
 
