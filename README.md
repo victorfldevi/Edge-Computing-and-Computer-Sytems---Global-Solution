@@ -76,3 +76,8 @@ Informações relevantes:
 Não é possível utilizar um módulo wifi serial ESP8266 sem modificar ambos o código e a esquemática, portanto a única utilidade real na simulação do Tinkercad é a leitura da primeira linha do display LCD, onde coleta informações do ambiente através dos sensores e as mostra no formato explicado acima, a segunda linha do LCD é meramente teórica e ilustrativa sobre como o projeto final funcionaria.
 
 Na lista de componentes são citados jumpers de cores específicas em quantidades específicas, porém podem ser usados jumpers de qualquer cor para conectar qualquer parte do circuito, desde que o início e o final estejam conectados corretamente como indicados na esquemática, as cores servem apenas para organização.
+
+
+Link para simulação do Tinkercad:
+
+https://www.tinkercad.com/things/dRcXDqlHlzn-edge-computing-and-computer-systems-global-solution/editel?sharecode=JH95nCrBSnzgWd3Gf3GxjoqthGzTHDl6Lq1DaOqTKJI
