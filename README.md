@@ -56,7 +56,9 @@ Requisitos:
 Dependências:
 
 Conexão com um computador com o Arduino IDE instalado (configurações iniciais), Obs. Não é necessária configuração inicial caso seja feita simulação com botão
+
 Fonte de energia (bateria ou USB)
+
 Conexão com a internet (se for simulado utilizando o botão, não é necessária conexão com a internet)
 
 
